@@ -5,7 +5,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class Config(object):
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'e1162f08-6084-4071-90ce-49d028d7a9a1'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'hellocmsstorage'
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'FTLAj/gsNIF6rHQagiwZOVVIZm8Df4CZMQOCsNpVYLCNKr+Gd+kocAd7GfGXw8u+au2MtKydZY3E+AStaAd5aA=='
