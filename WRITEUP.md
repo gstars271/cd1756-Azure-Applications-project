@@ -26,6 +26,7 @@ From my opinion and appropriate solution, both VM and App Service are good for o
 
 _Detail how the app and any other needs would have to change for you to change your decision in the last section._
 
-| VM                                                                                           | App Service                                                       |
-| -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Control over environment like OS, software, configurations that are required for application | Modern App deployment (microservices, serverless,...) management. |
+| VM                                                                                           | App Service                                                                                 |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Control over environment like OS, software, configurations that are required for application | Good ideal for modern App deployment (microservices, serverless,...) management.            |
+|                                                                                              | Deploy easily using tools like Azure Portal, CLI, Visual Studio, or through CI/CD pipelines |
